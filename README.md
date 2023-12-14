@@ -1,7 +1,10 @@
 # Simple Counter App using react
 
 This is a simple Counter App .  There is two  functions onIncrement and onDecremnt . These two functions increse and decrese count. 
-We cannot decrease count when the count value become 0 and not possible to increment count value when it is 10 
+We cannot decrease count when the count value become 0 and not possible to increment count value when it is 10 .
+
+Here implemented global state management , used useReducer and useContext hook to manage states . States are stored in global and avoid passing props to child component.
+
 
 #This is a mobile responsive app 
  Live link: https://react-counter-opal-seven.vercel.app/
