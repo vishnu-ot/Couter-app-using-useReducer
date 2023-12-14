@@ -1,0 +1,34 @@
+.counter-container {
+  /* border: 1px solid black; */
+  border: none;
+  border-radius: 5px;
+  width: 600px;
+  height: 600px;
+  max-width: 100%;
+  background-color: #312e2e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .counter-container {
+    width: 350px;
+    max-width: 100%;
+    height: 400px;
+  }
+}
+.btn-grps button {
+  background: #363636;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px 5px;
+  color: beige;
+  transition: background-color 0.5s ease-in-out;
+}
+.btn-grps button:hover {
+  background-color: #1b1a1a;
+}
